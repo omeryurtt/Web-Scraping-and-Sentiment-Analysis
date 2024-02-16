@@ -65,12 +65,7 @@ Graphs are generated to visualize the results.
 
 This chart compares the sentiment analysis values of VADER and RoBERTa, illustrating how they evaluate negative, positive, and neutral sentiments. The boxes and whiskers in the graph represent the distribution and variance of these methods' scores.
 
-This graph can be used to observe the differences and similarities between the two models. We can infer the following:
-
-* VADER assigns higher scores to negative sentiments compared to RoBERTa. This might indicate that VADER interprets negative texts more strongly, or RoBERTa perceives negative texts with a softer approach.
-* RoBERTa gives higher scores to neutral sentiments than VADER. This could suggest that RoBERTa perceives neutral texts more positively, or VADER interprets neutral texts more negatively.
-* Both models evaluate positive sentiments in a similar manner, indicating proficiency in recognizing positive texts.
-* VADER has more outliers compared to RoBERTa. This may suggest that VADER misclassifies some texts, while RoBERTa is more consistent in its predictions.
+This graph can be used to observe the differences and similarities between the two models. 
   
 ### 11. ```.csv``` Files:
 You can find all the data in ```datas``` folder. 
